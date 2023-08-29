@@ -1,0 +1,42 @@
+#mainNav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+    width: 250px;
+}
+#mainNav li{
+    padding: 0.5em;
+    border: 1px rgb(240,240,240)solid;
+
+}
+#mainNav a{
+    min-height: 50px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+p.hover,a.hover{
+    background-color: darkgoldenrod;
+    }
+    a:visited{color: green;
+ }
+a:link{
+    color:blue;
+}	
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid hotpink;
+    max-width: 600px;
+}
+ thead,tfoot{
+    background: hotpink;
+    color: black;
+    text-shadow: 1px 1px 1pxblack;
+ }
+ th{
+    letter-spacing: 1px;
+    text-align: center;
+ }
